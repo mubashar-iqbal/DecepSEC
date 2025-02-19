@@ -1,0 +1,30 @@
+{
+    "@id": "dtmi:com:example:Tank;1",
+    "@type": "Interface",
+    "displayName": "T101",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Capacitym3",
+        "schema": "double"
+      
+      },
+      {
+        "@type": "Relationship",
+        "name": "IsMonitoredBy",
+        "displayName": "IsMonitoredBy",
+        "target": "dtmi:com:example:LevelSensor;1"
+      },
+      {
+        "@type": "Relationship",
+        "name": "feeds",
+        "displayName": "Feeds",
+        "target": "dtmi:com:example:Pump;1"
+      }
+
+    ]
+    
+    
+  }
+  

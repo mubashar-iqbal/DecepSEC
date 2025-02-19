@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|c:\\users\\ojusvire\\downloads\\ojus\\implementation\\thesisimplementation\\simulator\\flowsensor1simulator\\flowsensor1simulator\\flowsensor1simulator\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|solutionrelative:flowsensor1simulator\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|c:\\users\\ojusvire\\downloads\\ojus\\implementation\\thesisimplementation\\simulator\\flowsensor1simulator\\flowsensor1simulator\\flowsensor1simulator\\azureiothub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|solutionrelative:flowsensor1simulator\\azureiothub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|c:\\users\\ojusvire\\downloads\\ojus\\implementation\\thesisimplementation\\simulator\\flowsensor1simulator\\flowsensor1simulator\\flowsensor1simulator\\flowsensor1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|solutionrelative:flowsensor1simulator\\flowsensor1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|c:\\users\\ojusvire\\downloads\\ojus\\implementation\\thesisimplementation\\simulator\\flowsensor1simulator\\flowsensor1simulator\\flowsensor1simulator\\iothubconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|solutionrelative:flowsensor1simulator\\iothubconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|c:\\users\\ojusvire\\downloads\\ojus\\implementation\\thesisimplementation\\simulator\\flowsensor1simulator\\flowsensor1simulator\\flowsensor1simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|solutionrelative:flowsensor1simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|c:\\users\\ojusvire\\downloads\\ojus\\implementation\\thesisimplementation\\simulator\\flowsensor1simulator\\flowsensor1simulator\\flowsensor1simulator\\flowsensor1simulator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F3CCF870-158A-4F16-982B-E53BA562C95E}|FlowSensor1Simulator\\FlowSensor1Simulator.csproj|solutionrelative:flowsensor1simulator\\flowsensor1simulator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AzureIoTHub.cs",
+              "DocumentMoniker": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\AzureIoTHub.cs",
+              "RelativeDocumentMoniker": "FlowSensor1Simulator\\AzureIoTHub.cs",
+              "ToolTip": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\AzureIoTHub.cs",
+              "RelativeToolTip": "FlowSensor1Simulator\\AzureIoTHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:33:01.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\App.config",
+              "RelativeDocumentMoniker": "FlowSensor1Simulator\\App.config",
+              "ToolTip": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\App.config",
+              "RelativeToolTip": "FlowSensor1Simulator\\App.config",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-15T15:44:02.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FlowSensor1Simulator.csproj",
+              "DocumentMoniker": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator.csproj",
+              "RelativeDocumentMoniker": "FlowSensor1Simulator\\FlowSensor1Simulator.csproj",
+              "ToolTip": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator.csproj",
+              "RelativeToolTip": "FlowSensor1Simulator\\FlowSensor1Simulator.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-15T15:41:42.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlowSensor1.cs",
+              "DocumentMoniker": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1.cs",
+              "RelativeDocumentMoniker": "FlowSensor1Simulator\\FlowSensor1.cs",
+              "ToolTip": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1.cs",
+              "RelativeToolTip": "FlowSensor1Simulator\\FlowSensor1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:33:36.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IotHubConnection.cs",
+              "DocumentMoniker": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\IotHubConnection.cs",
+              "RelativeDocumentMoniker": "FlowSensor1Simulator\\IotHubConnection.cs",
+              "ToolTip": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\IotHubConnection.cs",
+              "RelativeToolTip": "FlowSensor1Simulator\\IotHubConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:33:28.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\Program.cs",
+              "RelativeDocumentMoniker": "FlowSensor1Simulator\\Program.cs",
+              "ToolTip": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\FlowSensor1Simulator\\Program.cs",
+              "RelativeToolTip": "FlowSensor1Simulator\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:28:46.445Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

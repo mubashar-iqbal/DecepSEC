@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:example:LevelSensor;1",
+    "@type": "Interface",
+    "displayName": "LIT101",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "levelm",
+        "schema": "double"
+        
+        
+      }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }
+  

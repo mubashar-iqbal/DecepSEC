@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Ingestor Functions\\TankIngestor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4705C5AD-025F-4F86-8D6F-16086D78ABA8}|TankIngestor\\TankIngestor.csproj|c:\\users\\ojusvire\\downloads\\ojus\\implementation\\thesisimplementation\\ingestor functions\\tankingestor\\tankingestor\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4705C5AD-025F-4F86-8D6F-16086D78ABA8}|TankIngestor\\TankIngestor.csproj|solutionrelative:tankingestor\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Ingestor Functions\\TankIngestor\\TankIngestor\\Function1.cs",
+              "RelativeDocumentMoniker": "TankIngestor\\Function1.cs",
+              "ToolTip": "C:\\Users\\ojusvire\\Downloads\\Ojus\\Implementation\\ThesisImplementation\\Ingestor Functions\\TankIngestor\\TankIngestor\\Function1.cs",
+              "RelativeToolTip": "TankIngestor\\Function1.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwE4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:07:33.217Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

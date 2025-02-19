@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:example:FlowSensor2;1",
+    "@type": "Interface",
+    "displayName": "FIT201",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "FlowRateLs",
+        "schema": "double"
+        
+      }
+      
+    ]
+    
+  }

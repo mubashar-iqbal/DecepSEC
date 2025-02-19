@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FlowSensor1IngestFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7251",
+      "launchBrowser": false
+    }
+  }
+}

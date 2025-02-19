@@ -1,0 +1,20 @@
+{
+    "@id": "dtmi:com:example:MotorValve;1",
+    "@type": "Interface",
+    "displayName": "MV101",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "state",
+        "schema": "string"
+      },
+      {
+        "@type": "Relationship",
+        "name": "feeds",
+        "displayName": "Feeds",
+        "target": "dtmi:com:example:Tank;1"
+      }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }
+  
