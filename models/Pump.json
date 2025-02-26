@@ -1,0 +1,35 @@
+{
+  "@id": "dtmi:com:example:Pump;1",
+  "@type": "Interface",
+  "displayName": "P101",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "capacitym3",
+      "schema": "double"
+      
+    },
+    {
+      "@type": "Property",
+      "name": "OperationalStatus",
+      "schema": {
+        "@type": "Enum",
+        "valueSchema": "integer",
+        "enumValues": [
+          { "name": "Active", "enumValue": 1 },
+          { "name": "Inactive", "enumValue": 0 },
+          { "name": "Faulty", "enumValue": -1 }
+        ]
+      },
+      "description": "The operational state of the pump sensor."
+    },
+    {
+      "@type": "Relationship",
+      "name": "IsMonitoredBy",
+      "displayName": "IsMonitoredBy",
+      "target": "dtmi:com:example:FlowSensor2;1"
+    }
+  ]
+}
+  

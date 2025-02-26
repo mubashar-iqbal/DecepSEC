@@ -1,0 +1,54 @@
+{
+  "@id": "dtmi:com:example:FlowSensor1;1",
+  "@type": "Interface",
+  "displayName": "FIT101",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "FlowRateLs",
+      "schema": "integer",
+      "description": "Flow rate measured in liters per second."
+    },
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double",
+      "description": "Temperature of the fluid passing through the sensor, measured in degrees Celsius."
+    },
+    {
+      "@type": "Property",
+      "name": "Pressure",
+      "schema": "double",
+      "description": "Pressure of the fluid at the sensor location, measured in bar."
+    },
+    {
+      "@type": "Property",
+      "name": "OperationalStatus",
+      "schema": {
+        "@type": "Enum",
+        "valueSchema": "integer",
+        "enumValues": [
+          { "name": "Active", "enumValue": 1 },
+          { "name": "Inactive", "enumValue": 0 },
+          { "name": "Faulty", "enumValue": -1 }
+        ]
+      },
+      "description": "The operational state of the flow sensor 1."
+    },
+    {
+      "@type": "Relationship",
+      "name": "Monitors",
+      "displayName": "Monitors",
+      "target": "dtmi:com:example:MotorizedValve;1",
+      "description": "Relationship indicating that the flow sensor 1 monitors the motorized valve."
+    },
+    {
+      "@type": "Relationship",
+      "name": "IsMonitoredBy",
+      "displayName": "Is Monitored By",
+      "target": "dtmi:com:example:ControlUnit;1",
+      "description": "Relationship indicating that the flow sensor 1 is monitored by a control unit."
+    }
+  ]
+}

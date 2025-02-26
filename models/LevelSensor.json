@@ -1,0 +1,27 @@
+{
+  "@id": "dtmi:com:example:LevelSensor;1",
+  "@type": "Interface",
+  "displayName": "LIT101",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "levelm",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "OperationalStatus",
+      "schema": {
+        "@type": "Enum",
+        "valueSchema": "integer",
+        "enumValues": [
+          { "name": "Active", "enumValue": 1 },
+          { "name": "Inactive", "enumValue": 0 },
+          { "name": "Faulty", "enumValue": -1 }
+        ]
+      },
+      "description": "The operational state of the level sensor."
+    }
+  ]
+}

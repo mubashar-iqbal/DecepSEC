@@ -1,0 +1,50 @@
+{
+  "@id": "dtmi:com:example:ControlUnit;1",
+  "@type": "Interface",
+  "displayName": "ControlUnit",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "UnitID",
+      "displayName": "Control Unit ID",
+      "schema": "string",
+      "description": "Unique identifier for the control unit."
+    },
+    {
+      "@type": "Property",
+      "name": "OperationalStatus",
+      "schema": {
+        "@type": "Enum",
+        "valueSchema": "integer",
+        "enumValues": [
+          { "name": "Active", "enumValue": 1 },
+          { "name": "Inactive", "enumValue": 0 },
+          { "name": "Faulty", "enumValue": -1 }
+        ]
+      },
+      "description": "The operational state of the control unit."
+    },
+    {
+      "@type": "Telemetry",
+      "name": "CommandLogs",
+      "displayName": "Command Logs",
+      "schema": "string",
+      "description": "Logs control commands sent to the connected sensors and actuators."
+    },
+    {
+      "@type": "Relationship",
+      "name": "Monitors",
+      "displayName": "Monitors",
+      "target": "dtmi:com:example:FlowSensor1;1",
+      "description": "Indicates that the control unit monitors a flow sensor 1."
+    },
+    {
+      "@type": "Relationship",
+      "name": "Controls",
+      "displayName": "Controls",
+      "target": "dtmi:com:example:MotorizedValve;1",
+      "description": "Indicates that the control unit controls a motorized valve."
+    }
+  ]
+}
