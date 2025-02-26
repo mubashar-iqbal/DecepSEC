@@ -1,17 +1,42 @@
 {
-    "@id": "dtmi:com:example:FlowSensor2;1",
-    "@type": "Interface",
-    "displayName": "FIT201",
-    "@context": "dtmi:dtdl:context;2",
-    "contents": [
-      {
-        "@type": "Property",
-        "name": "FlowRateLs",
-        "schema": "double"
-        
-      }
+  "@id": "dtmi:com:example:FlowSensor2;1",
+  "@type": "Interface",
+  "displayName": "FIT201",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "FlowRateLs",
+      "schema": "double"
       
-    ]
+    },
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double",
+      "description": "Temperature of the fluid passing through the sensor, measured in degrees Celsius."
+    },
+    {
+        "@type": "Property",
+        "name": "Pressure",
+        "schema": "double",
+        "description": "Pressure of the fluid at the sensor location, measured in bar."
+    },
+    {
+        "@type": "Property",
+        "name": "OperationalStatus",
+        "schema": {
+          "@type": "Enum",
+          "valueSchema": "integer",
+          "enumValues": [
+            { "name": "Active", "enumValue": 1 },
+            { "name": "Inactive", "enumValue": 0 },
+            { "name": "Faulty", "enumValue": -1 }
+          ]
+        },
+        "description": "The operational state of the flow sensor 2."
+    }
     
-  }
+  ]
+}
 

@@ -1,22 +1,36 @@
 {
-    "@id": "dtmi:com:example:MotorValve;1",
-    "@type": "Interface",
-    "displayName": "MV101",
-    "contents": [
-      {
-        "@type": "Property",
-        "name": "state",
-        "schema": "string"
+  "@id": "dtmi:com:example:MotorValve;1",
+  "@type": "Interface",
+  "displayName": "MV101",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "state",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "OperationalStatus",
+      "schema": {
+        "@type": "Enum",
+        "valueSchema": "integer",
+        "enumValues": [
+          { "name": "Active", "enumValue": 1 },
+          { "name": "Inactive", "enumValue": 0 },
+          { "name": "Faulty", "enumValue": -1 }
+        ]
       },
-      {
-        "@type": "Relationship",
-        "name": "feeds",
-        "displayName": "Feeds",
-        "target": "dtmi:com:example:Tank;1"
-      }
-    ],
-    "@context": "dtmi:dtdl:context;2"
-  }
+      "description": "The operational state of the motorized valve sensor."
+    },
+    {
+      "@type": "Relationship",
+      "name": "feeds",
+      "displayName": "Feeds",
+      "target": "dtmi:com:example:Tank;1"
+    }
+  ]
+}
 
 
   
