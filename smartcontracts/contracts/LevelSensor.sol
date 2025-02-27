@@ -1,7 +1,9 @@
-//SPDX-License-Identifier: UNLICENSED
+//SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.9;
 
-contract LevelSensor{
+contract LevelSensor {
+
     uint256 minLevel;
     uint256 maxLevel;
     
