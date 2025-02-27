@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 
 import "./SOC_Team.sol";  // Import the SOC access control contract
 
-contract MetadataManager is SOCAccessControl {
+contract Metadata is SOC_Team {
 
     // Mapping to store metadata with a unique identifier
     mapping(uint256 => string) private metadataStorage;

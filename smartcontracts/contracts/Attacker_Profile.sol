@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.19;
 
-contract AttackerProfileManager {
+contract Attacker_Profile {
     // Contract owner
     address public owner;
 

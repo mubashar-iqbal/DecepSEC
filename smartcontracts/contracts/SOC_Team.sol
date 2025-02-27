@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.19;
 
-contract SOCAccessControl {
+contract SOC_Team {
 
     // Contract owner
     address public owner;
