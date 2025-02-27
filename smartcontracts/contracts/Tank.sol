@@ -4,6 +4,7 @@ pragma solidity ^0.8.9;
 
 contract Tank {
 
+    // tank water level
     int private waterLevel;
 
     event WaterLevelSet(address setter, int waterLevel);
