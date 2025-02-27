@@ -1,5 +1,39 @@
-node_modules
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS specific folder attributes
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.DS_Store
+.DS_Store?
+.fseventsd
+*.icloud
+
+# Ignore environment variable files
 .env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Ignore build and temporary files
+dist/
+out/
+tmp/
+*.log
+logs/
 coverage
 coverage.json
 typechain
@@ -8,4 +42,3 @@ typechain-types
 # Hardhat files
 cache
 artifacts
-

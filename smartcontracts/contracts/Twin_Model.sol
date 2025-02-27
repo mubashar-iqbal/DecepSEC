@@ -2,7 +2,9 @@
 
 pragma solidity ^0.8.9;
 
-contract DigitalTwinHashStorage {
+mport "./SOC_Team.sol"; // Import SOC Analysts contract for role-based access control
+
+contract DigitalTwinHashStorage is SOC_Team {
 
     // Mapping to store digital twin model hashes against a unique ID
     mapping(string => bytes32) private twinModelHashes;
@@ -10,8 +12,14 @@ contract DigitalTwinHashStorage {
     // Event emitted whenever a hash is added or updated
     event HashStored(string modelId, bytes32 hash);
 
+    // Modifier to restrict access to only the contract owner and SOC analysts
+    modifier onlyAuthorized() {
+        require(msg.sender == owner() || isSOCAnalyst(msg.sender), "Access denied: Not authorized");
+        _;
+    }
+
     // Function to store or update the hash of a digital twin model
-    function storeHash(string memory modelId, bytes32 hash) public {
+    function storeHash(string memory modelId, bytes32 hash) public onlyAuthorized {
         twinModelHashes[modelId] = hash;
         emit HashStored(modelId, hash);
     }
