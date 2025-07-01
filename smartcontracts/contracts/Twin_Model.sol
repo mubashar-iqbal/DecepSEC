@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.9;
 
-mport "./SOC_Team.sol"; // Import SOC Analysts contract for role-based access control
+import "./SOC_Team.sol"; // Import SOC Analysts contract for role-based access control
 
 contract DigitalTwinHashStorage is SOC_Team {
 
