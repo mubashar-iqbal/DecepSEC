@@ -10,7 +10,6 @@ async function main() {
   await processStage.deployed();
 
   //Get all the addresses
-
   const [tankAddr, levelSensorAddr] = await processStage.getChildContractAddresses();
 
 
