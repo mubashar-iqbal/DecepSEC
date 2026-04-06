@@ -7,12 +7,12 @@ The DecepSEC creates a DT-based deceptive twin environment that mimics real-worl
 Blockchain technology ensures the integrity, transparency, and tamper-proof storage of deception data, TI, and attacker profiles.
 
 ## Simulators
-We use a simulator approach to generate and simulate data from six sensors without configuring and managing physical IoT devices. Navigate to the simulator directory in a terminal and execute ```dotnet run``` command to start simulators. The simulators will generate sensor data in JSON format and send it to the ingestor.
+We use a simulation approach to generate data from six sensors without configuring or managing physical IoT devices. Navigate to the simulator directory in a terminal and execute ```dotnet run``` command to start simulators. The simulators will generate sensor data in JSON format and send it to the ingestor.
 
 ## Ingestor
-The Azure function creates the process of ingesting data into the Azure Digital Twins. The function receives the data and uses a JSON document patch to transform it, then updates the digital twins properties using the digital twins APIs.
+The Azure function creates the process of ingesting data into the Azure Digital Twins. The function receives the data and uses a JSON document patch to transform it, then updates the digital twins' properties using the digital twins APIs.
 
-Use Microsoft Visual Studio to compile and deploy ingestor to Microsoft Azure cloud using Azure function.
+Use Microsoft Visual Studio to compile and deploy the ingestor to Microsoft Azure using an Azure Function.
 
 ## Solidity Smart Contract
 We use the Ethereum blockchain to create smart contracts and deploy them on the Ethereum Sepolia testnet.
