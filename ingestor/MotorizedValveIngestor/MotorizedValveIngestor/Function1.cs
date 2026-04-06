@@ -59,7 +59,6 @@ namespace MotorizedValveIngestor
 
                     string state = (string)MV101Message["body"]["state"];
 
-
                     //Log the telemetry
                     log.LogInformation($"Device: {MV101Id} state: {state}");
 
