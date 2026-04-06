@@ -50,7 +50,6 @@ namespace LevelSensorSimulator
             }
 
             // Parse the connection string into the necessary components, and ensure the information is available.
-
             var parsedConnectionString = IotHubConnectionStringBuilder.Create(iotHubConnectionString);
             var iotHubName = parsedConnectionString.HostName?.Substring(0, parsedConnectionString.HostName.IndexOf('.'));
 
