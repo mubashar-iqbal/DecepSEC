@@ -17,7 +17,7 @@ contract LevelSensor is SOC_Team {
 
     // Modifier to restrict access to only the contract owner and SOC analysts
     modifier onlyAuthorized() {
-        require(msg.sender == owner() || isSOCAnalyst(msg.sender), "Access denied: Not authorized");
+        require(msg.sender == owner || isSOCAnalyst(msg.sender), "Access denied: Not authorized");
         _;
     }
 

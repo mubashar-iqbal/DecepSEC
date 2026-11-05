@@ -19,7 +19,7 @@ contract Tank is SOC_Team {
 
     // Modifier to restrict threshold setting to SOC analysts and contract owner
     modifier onlyAuthorized() {
-        require(msg.sender == owner() || isSOCAnalyst(msg.sender), "Access denied: Not authorized");
+        require(msg.sender == owner || isSOCAnalyst(msg.sender), "Access denied: Not authorized");
         _;
     }
 

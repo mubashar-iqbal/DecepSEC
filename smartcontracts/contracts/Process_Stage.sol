@@ -18,7 +18,7 @@ contract Process_Stage {
         Tank tank = new Tank();
         tankAddr = address(tank);
 
-        LevelSensor levelSensor = new Level_Sensor();
+        LevelSensor levelSensor = new LevelSensor();
         levelSensorAddr = address(levelSensor);
     }
 
