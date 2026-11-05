@@ -60,8 +60,10 @@ DecepSEC/
 │   └── *.json                   # DTDL model files describing twin interfaces
 │
 ├── smartcontracts/              # Solidity smart contracts (Ethereum)
-│   ├── contracts/               # .sol contract source files
-│   │   └── *.sol                # Threat intelligence / deception data contracts
+│   ├── contracts/               # Contract source files
+│   │   └── *.sol                # Smart contracts in .sol
+│   ├── test/                    # Unit tests
+│   │   └── *.test.js            # .test.js smart contract unit test files
 │   ├── scripts/                 # Deployment scripts (JS/TS)
 │   │   └── deploy.js            # Contract deployment script
 │   ├── hardhat.config.js        # Hardhat configuration (networks, compiler)
