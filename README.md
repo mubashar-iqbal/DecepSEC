@@ -6,6 +6,32 @@ The DecepSEC creates a DT-based deceptive twin environment that mimics real-worl
 
 Blockchain technology ensures the integrity, transparency, and tamper-proof storage of deception data, TI, and attacker profiles.
 
+## Architecture and repository layout
+
+```mermaid
+flowchart TD
+    S["Six device simulators"] --> H["Azure IoT Hub"]
+    H --> E["Event Grid: device telemetry"]
+    E --> F["Device-specific Azure Functions"]
+    F --> D["Azure Digital Twins"]
+    F -->|"Level-sensor threshold reads"| B["Sepolia: LevelSensor contract"]
+```
+
+Each simulator is a separate console application. Each ingestor reads a specific telemetry shape and updates a twin whose ID matches the IoT Hub device ID. The simulators publish fixed example values at intervals; they do not implement a coupled hydraulic simulation.
+
+The contracts also provide storage for model hashes, threat-intelligence hashes, attacker-profile hashes, metadata, and deception rules. 
+
+| Path | Contents |
+| --- | --- |
+| [Simulator/](Simulator/) | Six separate .NET console applications with nested project directories and per-project `App.config` files |
+| [ingestor/](ingestor/) | Six separate Azure Functions projects; handlers are in `Function1.cs` |
+| [models/](models/) | Seven DTDL v2 model definitions, including a control-unit model |
+| [smartcontracts/contracts/](smartcontracts/contracts/) | Solidity contracts |
+| [smartcontracts/contracts/test/](smartcontracts/contracts/test/) | JavaScript contract tests |
+| [smartcontracts/scripts/deploy.js](smartcontracts/scripts/deploy.js) | Process-stage deployment script; requires the correction in step 7 |
+| [smartcontracts/hardhat.config.js](smartcontracts/hardhat.config.js) | Compiler and Sepolia configuration |
+| [smartcontracts/package-lock.json](smartcontracts/package-lock.json) | Historical dependency lockfile; `package.json` must be restored |
+
 ## Prerequisites
 
 Ensure the following tools and accounts are available before setting up DecepSEC.
