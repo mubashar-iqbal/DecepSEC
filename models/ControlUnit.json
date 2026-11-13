@@ -12,20 +12,6 @@
       "description": "Unique identifier for the control unit."
     },
     {
-      "@type": "Property",
-      "name": "OperationalStatus",
-      "schema": {
-        "@type": "Enum",
-        "valueSchema": "integer",
-        "enumValues": [
-          { "name": "Active", "enumValue": 1 },
-          { "name": "Inactive", "enumValue": 0 },
-          { "name": "Faulty", "enumValue": -1 }
-        ]
-      },
-      "description": "The operational state of the control unit."
-    },
-    {
       "@type": "Telemetry",
       "name": "CommandLogs",
       "displayName": "Command Logs",
