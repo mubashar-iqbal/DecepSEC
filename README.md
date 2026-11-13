@@ -164,6 +164,29 @@ func start
 3. Select **Azure** → **Azure Function App** and follow the wizard.
 4. Set all required application settings in the Azure Portal.
 
+
+##### Create these resources in your Azure subscription:
+
+1. An **Azure IoT Hub** for simulated device telemetry.
+2. An **Azure Digital Twins instance**. Record its full endpoint, `https://<instance-hostname>`, from the instance overview.
+3. **Azure Function Apps with storage**, after resolving the runtime requirements above. Publishing each ingestor to a separate app is a straightforward arrangement; the repository has no combined app.
+4. **Event Grid subscriptions on the IoT Hub**, configured in step 6.
+
+For local developer authentication, sign in using Azure CLI or your development environment:
+
+```bash
+az login
+az account set --subscription "<subscription-id>"
+az extension add --name azure-iot
+```
+
+Give the developer identity **Azure Digital Twins Data Owner** access on the Digital Twins instance. For each deployed Function App, enable its **system-assigned managed identity** and grant that identity the same role on the instance. Resource-management access alone does not supply Digital Twins data-plane access.
+
+The ingestors use `DefaultAzureCredential`: local development can use the signed-in developer identity; Azure deployment can use the app identity. A service principal is optional. If used, configure the standard `AZURE_TENANT_ID`, `AZURE_CLIENT_ID`, and `AZURE_CLIENT_SECRET` environment variables. The source does not read custom `TENANT_ID`, `CLIENT_ID`, or `CLIENT_SECRET` settings.
+
+See Microsoft's [IoT Hub ingestion guide](https://learn.microsoft.com/en-us/azure/digital-twins/how-to-ingest-iot-hub-data) for identity and event-subscription setup.
+
+
 ---
 
 ### 3. Digital Twin Models
