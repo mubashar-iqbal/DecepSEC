@@ -7,21 +7,16 @@
     {
       "@type": "Property",
       "name": "state",
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "name": "OperationalStatus",
       "schema": {
         "@type": "Enum",
-        "valueSchema": "integer",
+        "valueSchema": "string",
         "enumValues": [
-          { "name": "Active", "enumValue": 1 },
-          { "name": "Inactive", "enumValue": 0 },
-          { "name": "Faulty", "enumValue": -1 }
+          { "name": "Closed", "enumValue": "CLOSED" },
+          { "name": "Open", "enumValue": "OPEN" },
+          { "name": "Transitioning", "enumValue": "TRANSITIONING" }
         ]
       },
-      "description": "The operational state of the motorized valve sensor."
+      "description": "The valve position or transition state."
     },
     {
       "@type": "Relationship",
@@ -31,6 +26,3 @@
     }
   ]
 }
-
-
-  
